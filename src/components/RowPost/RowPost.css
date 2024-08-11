@@ -1,0 +1,35 @@
+.scroll-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll-buttons button{
+    width: 25px;
+    border-radius: 10px;
+}
+
+.rows{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row-images{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.row-images:hover{
+    transform: scale(1.2);
+}
